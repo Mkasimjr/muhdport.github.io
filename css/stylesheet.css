@@ -1,0 +1,702 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.search{
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 20px;
+    border-radius: 30px;
+    border: none;
+    width: 80%;
+    font-size: 20px;
+    padding-left: 40px ;
+}
+.head-1{
+    padding-top: 10px;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+    border-bottom: 3px solid black;  
+  
+}
+.navbar ul{
+    display: inline-flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin: 30px;
+    width: 200px;
+}
+
+.navbar ul li:hover{
+    background-color: black;
+    border-radius: 5px;
+}
+.navbar ul li a{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.dav{
+    display: flex;
+    width: 40%;
+}
+/*for navbar*/
+@media only screen and (max-width:600px){
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    margin-top: 0%;
+    padding: 20px;
+    width: 100%; 
+    font-weight: bold;
+    
+}
+.navbar ul h1{
+    font-size: 60px;
+}
+.dav{
+    display: flex;
+    width: 70%;
+    font-size: 50px;
+    position: relative;
+    left: 200px;
+}
+.navbar ul li{
+    margin: 30px;
+    width: 100%;
+}
+.search{
+    width: 30%;
+}
+
+}
+@media only screen and (max-width:768px){
+    .navbar{
+        position: fixed;
+        z-index: 1000;
+        width: 100%; 
+    }
+    .navbar ul{
+        display: inline;
+        text-align: center;
+        list-style: none;
+    }
+    .search{
+        width: 30%;
+    }
+    .navbar ul h1{
+        font-size: 60px;
+    }
+    .dav{
+        display: flex;
+        width: 70%;
+        font-size: 50px;
+        position: relative;
+        left: 200px;
+    }
+    
+ }
+ 
+@media only screen and (max-width:992px){
+    .navbar{
+        position: fixed;
+        z-index: 1000;
+        width: 100%; 
+    }
+    .navbar ul{
+        display: inline;
+        text-align: center;
+        list-style: none;
+    }
+    .search{
+        width: 30%;
+    }
+    .navbar ul h1{
+    font-size: 60px;
+}
+.dav{
+    display: flex;
+    width: 70%;
+    font-size: 50px;
+    position: relative;
+    left: 200px;
+}
+}
+@media only screen and (max-width:1200px){
+    .navbar{
+        position: fixed;
+        z-index: 1000;
+        width: 100%; 
+    }
+    .navbar ul{
+        display: inline;
+        text-align: center;
+        list-style: none;
+    }
+    .search{
+        width: 30%;
+    }
+}
+/*image 1*/
+@media (max-width:600px){
+    .ff-1{
+        position: relative;
+        top: 200px;
+        width: 350%;
+    }
+    .pra{
+        position: absolute;
+        top: 150px;
+        left: 500px;
+    }
+    .ff-3{
+        position: relative;
+        left: 150px;
+        width: 300%;
+    }
+    .foot-1{
+        width: 380%;
+    }
+}
+@media (max-width:768px){
+    .ff-1{
+        position: relative;
+        top: 200px;
+        width: 350%;
+    }
+   
+    .ff-3{
+        position: relative;
+        left: 150px;
+        width: 300%;
+    }
+    .foot-1{
+        width: 380%;
+    }
+}
+@media (max-width:992px){
+    .ff-1{
+        position: relative;
+        top: 200px;
+        width: 350%;
+    }
+   
+    .ff-3{
+        position: relative;
+        left: 150px;
+        width: 300%;
+    }
+    .foot-1{
+        width: 380%;
+    }
+}
+@media (max-width:1200px){
+    .ff-1{
+        position: relative;
+        top: 200px;
+        width: 350%;
+    }
+   
+    .ff-3{
+        position: relative;
+        left: 150px;
+        width: 300%;
+    }
+    .foot-1{
+        width: 380%;
+    }
+}
+
+
+
+.img1{
+    height: 100vh;
+    position: relative;
+    left: 50%;
+    border-bottom: 3px solid  orangered;
+    top: -200px;
+}
+.ff-1 p{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    border-left: 5px solid orangered;
+    line-height: 50px;
+    height: 300px;
+}
+/*end of image 1*/
+/*image 2*/ 
+.ff-2{
+    display: flex;
+    position: relative;
+    top: -100px;
+    height: 900px;
+}
+.img2{
+    width: 80vh;
+    height: 100vh;
+    position: relative;
+    top: 70px;
+    border-bottom: 3px solid orangered;
+    left: 30px;
+}
+
+.ff-2 p{
+    position: relative;
+    top: 100px;
+    width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+    left: 200px;
+    border-left: 5px solid orangered;
+    word-spacing: 2px;
+    height: 500px;
+    font-size: 40px;
+}
+.ff-3{
+    position: relative;
+    top: 150px;
+}
+.ff-3 p{
+    text-align: center;
+    font-size: 30px;
+}
+.foot-1{
+    text-align: center;
+    margin-bottom: 0%;
+    position: relative;
+    top: 200px;
+    background-color: orangered;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+/*end of index page */
+.ff-1 b{
+    color: orangered;
+}
+
+/* about me responsive*/
+@media only screen and (max-width:600px){
+    .ff-5 h1{
+        width: 101%;
+        position: relative;
+        top: 30px;
+    }
+    .ff-5 {
+        top: 250px;
+        width: 350%;
+    }
+    .ff-6{
+        font-weight: bold;
+        padding: 70px;
+        height: 100%;
+    }
+    .ff-6 p{
+        padding: 40px;
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width:1000px){
+    .ff-5 h1{
+        width: 101%;
+    }
+    .ff-5 {
+        top: 200px;
+        width: 350%;
+        text-align: center;
+    }
+    .ff-6{
+        font-weight: bold;
+        height: 100%;
+        
+    }
+    .ff-6 p{
+        padding: 80px;
+        font-size: 40px;
+    }
+ }
+ @media only screen and (max-width:1200px){
+    .ff-5 {
+        top: 200px;
+        width: 350%;
+    }
+    .ff-6{
+        font-weight: bold;
+        height: 100%;
+        padding: 70px;
+    }
+    .ff-6 p{
+        font-size: 40px;
+    }
+    
+ }
+.ff-5{
+    position: relative;
+    
+}
+.ff-5 h1{
+    text-align: center;
+    background-color: orangered;
+    height: 60px;
+    position: relative;
+    top: 80px;
+    padding: 10px;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    color: white;
+}
+.ff-6{
+    text-align: center;
+    background-color: orangered;
+    margin: 80px 100px 0px 100px;
+    padding: 30px;
+    font-size: 30px;
+    position: relative;
+    top: 20px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: white
+}
+/*for certificate*/
+@media only screen and (max-width:600px){
+    .certificate{
+        width: 350%; 
+       
+    }
+    .certificate h2{
+        position: relative;
+        top: 200px;
+    }
+    .cert{
+        position: relative;
+        top: 200px;
+    }
+    .icon{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    .comment{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    
+    
+}
+@media only screen and (max-width:1000px){
+    .certificate{
+        position: relative;
+        top: 600px;
+        width: 350%;   
+    }
+    .icon{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    .comment{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    .foot-2{
+        width: 101%;
+    }
+    .certificate h2{
+        position: relative;
+        top: 200px;
+    }
+    .cert{
+        position: relative;
+        top: 200px;
+    }
+ }
+ @media only screen and (max-width:1200px){
+    .certificate{
+        position: relative;
+        top: 600px;
+        width: 350%;   
+    }
+    .icon{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    .comment{
+        text-align: center;
+        position: relative;
+        top: 250px;
+        width: 350%;
+    }
+    .foot-2{
+        width: 101%;
+    }
+    .certificate h2{
+        position: relative;
+        top: 200px;
+    }
+    .cert{
+        position: relative;
+        top: 200px;
+    }
+ }
+.certificate{
+    margin: 10px;
+    position: relative;
+    top: 30px;
+}
+.certificate img{
+    height: 20%;
+    width: 100vh;
+}
+.comment{
+    text-align: center;
+    height: 500px;
+}
+.comment input{
+    height: 50px;
+    width: 500px;
+    margin: 10px;
+    border: none;
+    border-radius: 60px;
+    border-bottom: 2px solid black;
+    padding: 20px 0px 20px 20px;
+    font-size: 20px;
+}
+.foot-2{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    background-color: orangered;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+}
+button{
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    transition: width 2s;
+    color: white;
+    border: none;
+    background-color: orangered;
+    border-radius: 30px;
+    font-size: 20px;
+}
+button:hover{
+     background-color: rgb(0, 0, 0);  
+     width: 300px; 
+
+}
+.comment input[type='textarea']{
+    height: 100px;
+    padding: 20px 0px 20px 20px;
+}
+section{
+    text-align: center;
+    margin: 10px;
+}
+.sec-1{
+    position: relative;
+    top: 50px;
+
+}
+/*for services */
+@media only screen and  (max-width:600px){
+    .sec-1{
+        width: 360%;
+        position: relative;
+        top: 300px;
+        
+    }
+    .comment-2{
+        position: relative;
+        top: 300px;
+        width: 360%;
+    }
+}
+@media only screen and  (max-width:768px){
+    .sec-1{
+        width: 360%;
+        position: relative;
+        top: 300px;
+    }
+    .comment-2{
+        position: relative;
+        top: 300px;
+        width: 360%;
+    }
+
+}
+@media only screen and  (max-width:992px){
+    .sec-1{
+        width: 360%;
+        position: relative;
+        top: 300px;
+    }
+    .comment-2{
+        position: relative;
+        top: 300px;
+        width: 360%;
+        padding: 20px;
+    }
+
+}
+@media only screen and  (max-width:1200px){
+    .sec-1{
+        width: 360%;
+        position: relative;
+        top: 300px;
+    }
+    .comment-2{
+        position: relative;
+        top: 300px;
+        width: 360%;
+    }
+
+}
+.ff-8 img{
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    border: 2px solid orangered;
+    margin: 10px;
+    transition: width,height 1s;
+    
+}
+.icon-1{
+    text-align: center;
+}
+.icon-1 ul{
+    list-style: none;
+    display: inline-flex;
+}
+.icon-1 li{
+    list-style: none;
+    width: 120px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.ff-8 img:hover{
+    width: 68vh;
+    height: 68vh;
+}
+.ff-8{
+    margin: 30px;
+}
+.ff-8 h2{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.ff-8 p{
+    font-size: 30px;
+    
+    line-height: 35px;
+}
+.icon{
+    text-align: center;
+}
+.icon ul{
+    list-style: none;
+    display: inline-flex;
+}
+.icon li{
+    list-style: none;
+    width: 120px;
+    margin: 20px;
+    padding: 30px;
+}
+
+.whatapp{
+    width: 120px;
+    height: 100px;
+}
+.facebook{
+    width: 90px;
+    height: 75px
+}
+.ig{
+    width: 100px;
+    height: 90px
+}
+.pp{ 
+    padding: 5px;
+    text-align: center;
+    margin-top: 0px;
+}
+.comment-2{
+   
+    text-align: center;
+}
+.comment-2 h2{
+    font-size: 30px;
+    border-bottom: 2px solid orangered;
+    text-transform: capitalize;
+}
+.comment-2 input{
+    width: 50%;
+    height: 60px;
+    margin: 10px;
+    border: none;
+    border-radius: 60px;
+    border-bottom: 1px solid black;
+    padding: 20px 0px 20px 20px;
+    font-size: 20px;
+}
+.comment-2 label{
+    font-size: 30px;
+    margin: 50px 0px 20px 0px;
+    color: orangered;
+    
+}
+.comment-2 input:hover{
+    border-bottom: 3px solid rgb(0, 0, 0);
+    
+}
+.foot-2{
+    text-align: center;
+    margin-bottom: 0%;
+    position: relative;
+    top: 200px;
+    background-color: orangered;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    padding: 30px;
+    
+}
+.bttt{
+    font-size: 20px;
+    transition: width 3s;
+    animation-name: me;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.bttt:hover{
+    background-color: black;
+    width: 100px;
+}
